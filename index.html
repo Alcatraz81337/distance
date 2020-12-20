@@ -7,7 +7,6 @@
 </head>
 <link rel="stylesheet" href="css/style.css">
 <link rel="stylesheet" href="css/normalize.css">
-<link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap" rel="stylesheet">
 <script src="js\main.js" defer></script>
 <body>
@@ -46,9 +45,14 @@
                  <use xlink:href="img/icons.svg#bell-icon"></use>
               </svg>
           </a>
-          <a href="#" class="icon-link">
+          <a href="#" class="icon-link info-icon-link">
               <svg class="header-icon info-icon" width="24" height="24">
                  <use xlink:href="img/icons.svg#info-icon"></use>
+              </svg>
+          </a>
+          <a href="#" class="icon-link">
+              <svg class="header-icon dropdown-icon" width="16" height="16">
+                 <use xlink:href="img/icons.svg#dropdown-icon"></use>
               </svg>
           </a>
         </div>
@@ -408,6 +412,33 @@
         <!-- /.story-item -->
       </div>
       <!-- /.stories -->
+      <div class="birthday-notification">
+            <svg class="gift-icon" width="24" height="24">
+                 <use xlink:href="img/icons.svg#gift-icon"></use>
+            </svg>
+           <span class="birthday-text">
+             <a href="#" class="birthday-user">John Doe</a>’s birthday is today
+           </span>
+      </div>
+      <!-- /.birthday-notification -->
+      <div class="your-page">
+        <div class="your-page-header stories-header">
+          <h4 class="stories-title your-page-title">Your page</h4>
+          <div class="story-buttons">
+            <button class="post-button options-button">
+              <svg class="post-header-icon post-dots-icon" width="24" height="24">
+                 <use xlink:href="img/icons.svg#post-dots-icon"></use>
+              </svg>
+            </button>
+          </div>
+          <!-- /.story-buttons -->
+        </div>
+        <div class="your-page-user">
+          <div class="story-image your-page-avatar concuria"></div>
+          <div class="your-page-info"></div>
+        </div>
+         <!-- /.your-page-user -->
+      </div>
     </div>
     <!-- /.right-sidebar -->
   </div>
